@@ -13,7 +13,7 @@ const Navbar: FC = () => {
         <div className="flex flex-1 items-center">
           <Link href="/">
             <a className={s.logo}>
-              NEXT_STORE
+              Exotic Pigion
             </a>
           </Link>
           <nav className="ml-6 space-x-6">
@@ -21,13 +21,13 @@ const Navbar: FC = () => {
               <a className={s.link}>All</a>
             </Link>
             <Link href="/">
-              <a className={s.link}>Clothes</a>
+              <a className={s.link}>Liquors</a>
             </Link>
             <Link href="/">
-              <a className={s.link}>Accesories</a>
+              <a className={s.link}>Beer</a>
             </Link>
             <Link href="/">
-              <a className={s.link}>Shoes</a>
+              <a className={s.link}>Wine</a>
             </Link>
           </nav>
           <div className="flex flex-1 justify-end space-x-8">
