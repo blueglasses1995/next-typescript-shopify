@@ -20,14 +20,14 @@ const Navbar: FC = () => {
             <Link href="/">
               <a className={s.link}>All</a>
             </Link>
-            <Link href="/">
-              <a className={s.link}>Liquors</a>
+            <Link href="products/mona-lisa-leonardo-da-vinci">
+              <a className={s.link}>MONA LISA</a>
             </Link>
-            <Link href="/">
-              <a className={s.link}>Beer</a>
+            <Link href="/products/the-scream-edvard-munch">
+              <a className={s.link}>THE SCREAM</a>
             </Link>
-            <Link href="/">
-              <a className={s.link}>Wine</a>
+            <Link href="/products/guernica-pablo-picasso">
+              <a className={s.link}>GUERNICA</a>
             </Link>
           </nav>
           <div className="flex flex-1 justify-end space-x-8">

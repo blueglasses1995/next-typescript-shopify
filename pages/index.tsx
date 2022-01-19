@@ -37,7 +37,7 @@ export default function Home({
        description="Marshmallow tart jelly icing cotton candy tootsie roll cotton candy candy canes. Cake liquorice sesame snaps. Cupcake cake cheesecake pie marshmallow lollipop soufflé marshmallow dessert. Cheesecake jujubes halvah chupa chups lollipop tootsie roll. Jelly-o tiramisu jelly toffee cake croissant lemon drops pudding. Donut sesame snaps gummi bears toffee. Sesame snaps jelly-o oat cake chocolate marzipan cake lollipop. Gingerbread cheesecake jujubes fruitcake cake. Tiramisu cotton candy marzipan candy canes oat cake pudding bonbon."
       />
       <Marquee>
-        { products.slice(0,3).map(product =>
+        { products.slice(3,5).map(product =>
           <ProductCard
             key={product.id}
             variant="slim"
@@ -46,7 +46,7 @@ export default function Home({
         )}
       </Marquee>
       <Grid layout="B">
-        { products.slice(0,3).map(product =>
+        { products.slice(5,8).map(product =>
           <ProductCard
             key={product.id}
             product={product}
@@ -54,7 +54,7 @@ export default function Home({
       )}
       </Grid>
       <Marquee variant="secondary">
-        { products.slice(0,3).map(product =>
+        { products.slice(8,11).map(product =>
           <ProductCard
             key={product.id}
             variant="slim"
